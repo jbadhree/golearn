@@ -55,7 +55,6 @@ P gets a OS thread M
 M is scheduled by OS in a core C
 Go Routine is where the Program will run (G) 
 
-![](img/memory_call_stack_1.jpg)
 
 
 ### Path of execution

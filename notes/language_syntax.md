@@ -60,13 +60,17 @@ Go Routine is where the Program will run (G)
 
 ### Path of execution
 
-#### Value Semantics (Pass By Value)
-
 Data segments are Stacks and Heaps
 
 OS Thread Stack -> 1 MB Of memory
 
 Go Routine Stack ->  2 KB Of memory 
+
+![](img/path_of_exec.jpeg)
+
+#### Value Semantics (Pass By Value)
+
+
 
 ![](img/call_stack_value.jpg)
 

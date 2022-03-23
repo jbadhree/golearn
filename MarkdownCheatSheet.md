@@ -55,7 +55,7 @@ ___
 `var i=10;`
 
 <!--- Images --->
-![Path Of Exec](path_of_exec.jpeg)
+![Path Of Exec](notes/img/path_of_exec.jpeg)
 
 <!--- Github Mark Down --->
 

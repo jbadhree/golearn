@@ -1,8 +1,8 @@
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func ExecuteArrays() {
 
 	var fruits [5]string
 	fruits[0] = "Apple" // Assignment is a copy operation

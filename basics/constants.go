@@ -1,4 +1,4 @@
-package main
+package basics
 
 type Duration int64
 
@@ -15,7 +15,7 @@ const (
 	C1
 )
 
-func main() {
+func ExecuteConstants() {
 	println(ui, uf, ti, tf)
 	var answer = 1 / 3
 	println(answer)

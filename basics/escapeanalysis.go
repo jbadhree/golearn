@@ -1,4 +1,4 @@
-package main
+package basics
 
 // Represents a user in the system
 type user struct {
@@ -6,7 +6,7 @@ type user struct {
 	email string
 }
 
-func main() {
+func ExecEscapeAnalysis() {
 	u1 := createUserV1()
 	u2 := createUserV2()
 

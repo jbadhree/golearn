@@ -1,12 +1,12 @@
-package main
+package basics
 
 import "fmt"
 
-type user struct {
+type sliceUser struct {
 	likes int
 }
 
-func main() {
+func ExecSlices() {
 
 	/*
 		fruits := make([]string, 5)
@@ -80,7 +80,7 @@ func main() {
 	// code to demostrate why append creating its own backing array could be dangerous
 
 	// declare a slice of 3 users
-	users := make([]user, 3)
+	users := make([]sliceUser, 3)
 
 	// WRONG share address user at index 1
 	//shareUser := &users[1]
@@ -97,7 +97,7 @@ func main() {
 	}
 
 	// Add a new user - this will create a copy of the original slice and operate on that
-	users = append(users, user{})
+	users = append(users, sliceUser{})
 
 	// WRONG add another like to shareUser.. but this it still pointing to original backing array
 	//shareUser.likes++

@@ -1,8 +1,8 @@
-package main
+package basics
 
 const size = 1024
 
-func main() {
+func ExecStackGrowth() {
 	s := "HELLO"
 	stackCopy(&s, 0, [size]int{})
 

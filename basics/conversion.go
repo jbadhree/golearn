@@ -1,6 +1,6 @@
 // You can edit this code!
 // Click here and start typing.
-package main
+package basics
 
 import "fmt"
 
@@ -17,7 +17,7 @@ type alice struct {
 	pi      float32
 }
 
-func main() {
+func ExecConversion() {
 	fmt.Println("Hello")
 
 	// Literal types
@@ -34,8 +34,8 @@ func main() {
 	var a bill
 	var b alice
 	a = e2 // this will work because e1 is a literal type
-	
+
 	// a = b // this will not work because b is a named type
-	
+
 	fmt.Println(a, b, e2)
 }
